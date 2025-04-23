@@ -3,7 +3,7 @@ import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, ConversationHandler, CallbackQueryHandler
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("7729311647:AAETRG8yvD7p9yYIOMuIlqk5E4f6Bn9fvEA")
 DATA_FILE = "users.json"
 
 ASK_PAYEER, ASK_EMAIL = range(2)
